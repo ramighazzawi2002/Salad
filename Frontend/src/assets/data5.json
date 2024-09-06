@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Vegetarian",
+      "description": "Recipes that are plant-based and do not contain meat."
+    },
+    {
+      "name": "Desserts",
+      "description": "Sweet treats and delicious desserts for every occasion."
+    },
+    {
+      "name": "Seafood",
+      "description": "Fresh and flavorful seafood dishes from around the world."
+    },
+    {
+      "name": "Gluten-Free",
+      "description": "Delicious recipes made without gluten for those with dietary restrictions."
+    }
+  ]
+  

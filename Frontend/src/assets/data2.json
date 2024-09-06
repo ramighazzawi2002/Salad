@@ -1,0 +1,75 @@
+[
+    {
+      "title": "Pasta Carbonara",
+      "description": "A classic Italian dish made with eggs, cheese, pancetta, and pepper.",
+      "ingredients": [
+        { "name": "Pasta", "quantity": "400", "unit": "g" },
+        { "name": "Pancetta", "quantity": "150", "unit": "g" },
+        { "name": "Eggs", "quantity": "4", "unit": "pieces" },
+        { "name": "Parmesan cheese", "quantity": "100", "unit": "g" },
+        { "name": "Black pepper", "quantity": "to taste", "unit": "" },
+        { "name": "Salt", "quantity": "to taste", "unit": "" }
+      ],
+      "instructions": [
+        { "stepText": "Boil the pasta in salted water until al dente.", "stepImage": "" },
+        { "stepText": "Fry the pancetta until crispy.", "stepImage": "" },
+        { "stepText": "Mix eggs and grated Parmesan cheese in a bowl.", "stepImage": "" },
+        { "stepText": "Combine pasta, pancetta, and egg mixture. Stir quickly off the heat.", "stepImage": "" },
+        { "stepText": "Season with black pepper and serve immediately.", "stepImage": "" }
+      ],
+      "cookingTime": 25,
+      "category": "64b67d5f2f44b7bb2a51d1d2",
+      "chef": "64b67d5f2f44b7bb2a51d1e3",
+      "chefName": ["Chef Mario"],
+      "photos": ["https://example.com/pasta_carbonara.jpg"],
+      "dietaryRestrictions": ["Gluten"],
+      "cuisineType": "Italian",
+      "nutrition": {
+        "calories": "650 kcal",
+        "protein": "25 g",
+        "TotalFats": "30 g",
+        "carbs": "80 g"
+      },
+      "videoTutorialUrl": "https://example.com/carbonara_tutorial.mp4",
+      "isDeleted": false,
+      "servings": 4
+    },
+    {
+      "title": "Chicken Tikka Masala",
+      "description": "A flavorful Indian dish made with marinated grilled chicken in a creamy tomato sauce.",
+      "ingredients": [
+        { "name": "Chicken", "quantity": "500", "unit": "g" },
+        { "name": "Yogurt", "quantity": "1", "unit": "cup" },
+        { "name": "Garam masala", "quantity": "1", "unit": "tbsp" },
+        { "name": "Tomatoes", "quantity": "2", "unit": "cups" },
+        { "name": "Cream", "quantity": "1", "unit": "cup" },
+        { "name": "Cumin", "quantity": "1", "unit": "tsp" },
+        { "name": "Garlic", "quantity": "2", "unit": "cloves" },
+        { "name": "Ginger", "quantity": "1", "unit": "tbsp" }
+      ],
+      "instructions": [
+        { "stepText": "Marinate chicken in yogurt and spices for 1 hour.", "stepImage": "" },
+        { "stepText": "Grill the marinated chicken until cooked through.", "stepImage": "" },
+        { "stepText": "Simmer tomatoes, garlic, ginger, and spices to make the sauce.", "stepImage": "" },
+        { "stepText": "Add cream and grilled chicken to the sauce and simmer for 10 minutes.", "stepImage": "" },
+        { "stepText": "Serve hot with rice or naan.", "stepImage": "" }
+      ],
+      "cookingTime": 45,
+      "category": "64b67d5f2f44b7bb2a51d1d2",
+      "chef": "64b67d5f2f44b7bb2a51d1e4",
+      "chefName": ["Chef Priya"],
+      "photos": ["https://example.com/chicken_tikka_masala.jpg"],
+      "dietaryRestrictions": ["Dairy"],
+      "cuisineType": "Indian",
+      "nutrition": {
+        "calories": "700 kcal",
+        "protein": "35 g",
+        "TotalFats": "40 g",
+        "carbs": "50 g"
+      },
+      "videoTutorialUrl": "https://example.com/tikka_masala_tutorial.mp4",
+      "isDeleted": false,
+      "servings": 4
+    }
+  ]
+  

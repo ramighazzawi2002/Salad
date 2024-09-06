@@ -1,0 +1,201 @@
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
+
+// User Schema (includes Chef)
+const userSchema = new Schema(
+  {
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
+    profilePicture: String,
+    role: { type: String, enum: ["user", "chef", "admin"], default: "user" },
+    bio: String,
+    savedRecipes: [{ type: Schema.Types.ObjectId, ref: "Recipe" }],
+    orderHistory: [{ type: Schema.Types.ObjectId, ref: "Order" }],
+    // Additional fields for chefs
+    businessDetails: {
+      paymentInfo: String,
+      address: String,
+    },
+    otp: String,
+    isDeleted: { Boolean, default: false },
+  },
+  { timestamps: true }
+);
+
+// Dish Schema
+const dishSchema = new Schema(
+  {
+    name: { type: String, required: true },
+    description: { type: String, required: true },
+    price: { type: Number, required: true },
+    photos: [String],
+    availableQuantity: { type: Number, required: true },
+    category: { type: Schema.Types.ObjectId, ref: "Category" },
+    chef: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    dietaryRestrictions: [String],
+    cuisineType: String,
+    preparationTime: Number, // in minutes
+    isDeleted: { Boolean, default: false },
+  },
+  { timestamps: true }
+);
+
+// Recipe Schema
+const recipeSchema = new Schema(
+  {
+    title: { type: String, required: true },
+    description: { type: String, required: true },
+    ingredients: [
+      {
+        name: String,
+        quantity: String,
+        unit: String,
+      },
+    ],
+    instructions: [String],
+    cookingTime: { type: Number, required: true }, // in minutes
+    category: { type: Schema.Types.ObjectId, ref: "Category" },
+    chef: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    photos: [String],
+    dietaryRestrictions: [String],
+    cuisineType: String,
+    isDeleted: { Boolean, default: false },
+  },
+  { timestamps: true }
+);
+
+// Order Schema
+const orderSchema = new Schema(
+  {
+    orderDate: { type: Date, default: Date.now },
+    status: {
+      type: String,
+      enum: ["pending", "completed"],
+      default: "pending",
+    },
+    totalAmount: { type: Number, required: true },
+    user: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    chef: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    dishes: [
+      {
+        dish: { type: Schema.Types.ObjectId, ref: "Dish" },
+        quantity: Number,
+      },
+    ],
+    deliveryAddress: {
+      street: String,
+      city: String,
+      state: String,
+      zipCode: String,
+      country: String,
+    },
+    deliveryMethod: {
+      type: String,
+      enum: ["delivery", "pickup"],
+      required: true,
+    },
+    estimatedDeliveryTime: Date,
+  },
+  { timestamps: true }
+);
+
+// Review Schema
+const reviewSchema = new Schema(
+  {
+    rating: { type: Number, required: true, min: 1, max: 5 },
+    comment: String,
+    user: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    reviewableType: { type: String, enum: ["Recipe", "Dish"], required: true },
+    reviewableId: { type: Schema.Types.ObjectId, required: true },
+    isDeleted: { Boolean, default: false },
+    replies: [
+      {
+        author: { type: Schema.Types.ObjectId, ref: "User", required: true },
+        content: { type: String, required: true },
+        createdAt: { type: Date, default: Date.now },
+        isDeleted: { type: Boolean, default: false },
+      },
+    ],
+  },
+  { timestamps: true }
+);
+
+// Report Schema
+const reportSchema = new Schema(
+  {
+    reportableType: {
+      type: String,
+      enum: ["Recipe", "Dish", "User", "Review"],
+      required: true,
+    },
+    reportableId: { type: Schema.Types.ObjectId, required: true },
+    reporter: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    reason: { type: String, required: true },
+    status: {
+      type: String,
+      enum: ["pending", "resolved"],
+      default: "pending",
+    },
+  },
+  { timestamps: true }
+);
+
+// Contact Schema
+const contactSchema = new Schema(
+  {
+    name: { type: String, required: true },
+    email: { type: String, required: true },
+    message: { type: String, required: true },
+    status: {
+      type: String,
+      enum: ["new", "responded"],
+      default: "new",
+    },
+  },
+  { timestamps: true }
+);
+
+// Category Schema
+const categorySchema = new Schema(
+  {
+    name: { type: String, required: true, unique: true },
+    description: String,
+  },
+  { timestamps: true }
+);
+
+// Payment Transaction Schema
+const paymentTransactionSchema = new Schema(
+  {
+    order: { type: Schema.Types.ObjectId, ref: "Order", required: true },
+    amount: { type: Number, required: true },
+    status: {
+      type: String,
+      enum: ["pending", "completed", "failed"],
+      default: "pending",
+    },
+    paymentMethod: { type: String, required: true },
+    transactionId: { type: String, unique: true },
+  },
+  { timestamps: true }
+);
+
+// Export models
+module.exports = {
+  User: mongoose.model("User", userSchema),
+  Dish: mongoose.model("Dish", dishSchema),
+  Recipe: mongoose.model("Recipe", recipeSchema),
+  Order: mongoose.model("Order", orderSchema),
+  Review: mongoose.model("Review", reviewSchema),
+  Report: mongoose.model("Report", reportSchema),
+  Contact: mongoose.model("Contact", contactSchema),
+  Category: mongoose.model("Category", categorySchema),
+  PaymentTransaction: mongoose.model(
+    "PaymentTransaction",
+    paymentTransactionSchema
+  ),
+};
+
+const userModel = mongoose.model("User", userSchema, "Users");
+module.exports = userModel;

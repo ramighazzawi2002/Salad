@@ -1,0 +1,48 @@
+.hero-section {
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+  }
+  
+  .hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .ingredients-grid,
+  .nutrition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .instruction-step,
+  .ingredient-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .scroll-popup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    background-color: #f8f8f8;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scroll-popup p {
+    margin: 0;
+  }
+  
+  .wishlist-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "seafood salad",
+    "description": "A salad with various seafood ingredients."
+  },
+  {
+    "name": "pasta salad",
+    "description": "A salad that typically contains pasta as the main ingredient."
+  },
+  {
+    "name": "fruit salad",
+    "description": "A salad made primarily of various fresh fruits."
+  },
+  {
+    "name": "sweet salad",
+    "description": "A salad that is sweet in flavor, often including fruits or dessert-like ingredients."
+  },
+  {
+    "name": "chicken salad",
+    "description": "A salad with chicken as the main protein."
+  },
+  {
+    "name": "salad dressing",
+    "description": "A variety of sauces or dressings used to enhance the flavor of salads."
+  }
+]

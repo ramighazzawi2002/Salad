@@ -1,0 +1,180 @@
+[
+    {
+      "title": "Pasta Carbonara",
+      "description": "A classic Italian dish made with eggs, cheese, pancetta, and pepper.",
+      "ingredients": [
+        { "name": "Pasta", "quantity": "400", "unit": "g" },
+        { "name": "Pancetta", "quantity": "150", "unit": "g" },
+        { "name": "Eggs", "quantity": "4", "unit": "pieces" },
+        { "name": "Parmesan cheese", "quantity": "100", "unit": "g" },
+        { "name": "Black pepper", "quantity": "to taste", "unit": "" },
+        { "name": "Salt", "quantity": "to taste", "unit": "" }
+      ],
+      "instructions": [
+        { "stepText": "Boil the pasta in salted water until al dente.", "stepImage": "https://www.example.com/boil_pasta.jpg" },
+        { "stepText": "Fry the pancetta until crispy.", "stepImage": "https://www.example.com/fry_pancetta.jpg" },
+        { "stepText": "Mix eggs and grated Parmesan cheese in a bowl.", "stepImage": "https://www.example.com/mix_eggs_cheese.jpg" },
+        { "stepText": "Combine pasta, pancetta, and egg mixture. Stir quickly off the heat.", "stepImage": "https://www.example.com/combine_pasta_pancetta.jpg" },
+        { "stepText": "Season with black pepper and serve immediately.", "stepImage": "https://www.example.com/season_pepper.jpg" }
+      ],
+      "cookingTime": 25,
+      "category": "64b67d5f2f44b7bb2a51d1d2",
+      "chef": "64b67d5f2f44b7bb2a51d1e3",
+      "chefName": ["Chef Mario"],
+      "photos": ["https://example.com/pasta_carbonara.jpg"],
+      "dietaryRestrictions": ["Gluten"],
+      "cuisineType": "Italian",
+      "nutrition": {
+        "calories": "650 kcal",
+        "protein": "25 g",
+        "TotalFats": "30 g",
+        "carbs": "80 g"
+      },
+      "videoTutorialUrl": "https://www.allrecipes.com/recipe/14276/strawberry-spinach-salad-i/",
+      "isDeleted": false,
+      "servings": 4
+    },
+    {
+      "title": "Chicken Tikka Masala",
+      "description": "A flavorful Indian dish made with marinated grilled chicken in a creamy tomato sauce.",
+      "ingredients": [
+        { "name": "Chicken", "quantity": "500", "unit": "g" },
+        { "name": "Yogurt", "quantity": "1", "unit": "cup" },
+        { "name": "Garam masala", "quantity": "1", "unit": "tbsp" },
+        { "name": "Tomatoes", "quantity": "2", "unit": "cups" },
+        { "name": "Cream", "quantity": "1", "unit": "cup" },
+        { "name": "Cumin", "quantity": "1", "unit": "tsp" },
+        { "name": "Garlic", "quantity": "2", "unit": "cloves" },
+        { "name": "Ginger", "quantity": "1", "unit": "tbsp" }
+      ],
+      "instructions": [
+        { "stepText": "Marinate chicken in yogurt and spices for 1 hour.", "stepImage": "https://www.example.com/marinate_chicken.jpg" },
+        { "stepText": "Grill the marinated chicken until cooked through.", "stepImage": "https://www.example.com/grill_chicken.jpg" },
+        { "stepText": "Simmer tomatoes, garlic, ginger, and spices to make the sauce.", "stepImage": "https://www.example.com/simmer_tomatoes_spices.jpg" },
+        { "stepText": "Add cream and grilled chicken to the sauce and simmer for 10 minutes.", "stepImage": "https://www.example.com/add_cream_chicken.jpg" },
+        { "stepText": "Serve hot with rice or naan.", "stepImage": "https://www.example.com/serve_rice_naann.jpg" }
+      ],
+      "cookingTime": 45,
+      "category": "64b67d5f2f44b7bb2a51d1d2",
+      "chef": "64b67d5f2f44b7bb2a51d1e4",
+      "chefName": ["Chef Priya"],
+      "photos": ["https://example.com/chicken_tikka_masala.jpg"],
+      "dietaryRestrictions": ["Dairy"],
+      "cuisineType": "Indian",
+      "nutrition": {
+        "calories": "700 kcal",
+        "protein": "35 g",
+        "TotalFats": "40 g",
+        "carbs": "50 g"
+      },
+      "videoTutorialUrl": "https://www.allrecipes.com/recipe/14276/strawberry-spinach-salad-i/",
+      "isDeleted": false,
+      "servings": 4
+    },
+    {
+      "title": "Vegetable Stir-Fry",
+      "description": "A quick and healthy stir-fry made with a mix of fresh vegetables and soy sauce.",
+      "ingredients": [
+        { "name": "Bell peppers", "quantity": "2", "unit": "pieces" },
+        { "name": "Broccoli", "quantity": "200", "unit": "g" },
+        { "name": "Carrots", "quantity": "2", "unit": "pieces" },
+        { "name": "Soy sauce", "quantity": "2", "unit": "tbsp" },
+        { "name": "Garlic", "quantity": "2", "unit": "cloves" },
+        { "name": "Ginger", "quantity": "1", "unit": "tbsp" },
+        { "name": "Olive oil", "quantity": "2", "unit": "tbsp" }
+      ],
+      "instructions": [
+        { "stepText": "Chop vegetables into bite-sized pieces.", "stepImage": "https://www.example.com/chop_vegetables.jpg" },
+        { "stepText": "Heat olive oil in a pan.", "stepImage": "https://www.example.com/heat_oil.jpg" },
+        { "stepText": "Add garlic and ginger to the pan, then stir-fry vegetables until tender.", "stepImage": "https://www.example.com/stir_fry_vegetables.jpg" },
+        { "stepText": "Add soy sauce and mix well.", "stepImage": "https://www.example.com/add_soy_sauce.jpg" },
+        { "stepText": "Serve hot with rice or noodles.", "stepImage": "https://www.example.com/serve_with_rice.jpg" }
+      ],
+      "cookingTime": 20,
+      "category": "64b67d5f2f44b7bb2a51d1d3",
+      "chef": "64b67d5f2f44b7bb2a51d1e5",
+      "chefName": ["Chef Lisa"],
+      "photos": ["https://example.com/vegetable_stir_fry.jpg"],
+      "dietaryRestrictions": ["Vegetarian"],
+      "cuisineType": "Asian",
+      "nutrition": {
+        "calories": "350 kcal",
+        "protein": "10 g",
+        "TotalFats": "15 g",
+        "carbs": "45 g"
+      },
+      "videoTutorialUrl": "https://www.allrecipes.com/recipe/14276/strawberry-spinach-salad-i/",
+      "isDeleted": false,
+      "servings": 4
+    },
+    {
+      "title": "Beef Tacos",
+      "description": "Delicious tacos filled with seasoned ground beef and your favorite toppings.",
+      "ingredients": [
+        { "name": "Ground beef", "quantity": "500", "unit": "g" },
+        { "name": "Taco seasoning", "quantity": "1", "unit": "packet" },
+        { "name": "Taco shells", "quantity": "8", "unit": "pieces" },
+        { "name": "Lettuce", "quantity": "1", "unit": "cup" },
+        { "name": "Tomatoes", "quantity": "2", "unit": "pieces" },
+        { "name": "Cheese", "quantity": "100", "unit": "g" }
+      ],
+      "instructions": [
+        { "stepText": "Cook ground beef with taco seasoning.", "stepImage": "https://www.example.com/cook_beef.jpg" },
+        { "stepText": "Warm taco shells in the oven.", "stepImage": "https://www.example.com/warm_taco_shells.jpg" },
+        { "stepText": "Assemble tacos with beef and desired toppings.", "stepImage": "https://www.example.com/assemble_tacos.jpg" },
+        { "stepText": "Serve with salsa and sour cream if desired.", "stepImage": "https://www.example.com/serve_tacos.jpg" }
+      ],
+      "cookingTime": 30,
+      "category": "64b67d5f2f44b7bb2a51d1d4",
+      "chef": "64b67d5f2f44b7bb2a51d1e6",
+      "chefName": ["Chef Juan"],
+      "photos": ["https://example.com/beef_tacos.jpg"],
+      "dietaryRestrictions": ["Gluten"],
+      "cuisineType": "Mexican",
+      "nutrition": {
+        "calories": "400 kcal",
+        "protein": "25 g",
+        "TotalFats": "20 g",
+        "carbs": "30 g"
+      },
+      "videoTutorialUrl": "https://www.allrecipes.com/recipe/14276/strawberry-spinach-salad-i/",
+      "isDeleted": false,
+      "servings": 4
+    },
+    {
+      "title": "Greek Salad",
+      "description": "A fresh and healthy salad with tomatoes, cucumbers, olives, and feta cheese.",
+      "ingredients": [
+        { "name": "Tomatoes", "quantity": "3", "unit": "pieces" },
+        { "name": "Cucumbers", "quantity": "2", "unit": "pieces" },
+        { "name": "Olives", "quantity": "100", "unit": "g" },
+        { "name": "Feta cheese", "quantity": "150", "unit": "g" },
+        { "name": "Red onion", "quantity": "1", "unit": "piece" },
+        { "name": "Olive oil", "quantity": "3", "unit": "tbsp" },
+        { "name": "Lemon juice", "quantity": "2", "unit": "tbsp" }
+      ],
+      "instructions": [
+        { "stepText": "Chop tomatoes, cucumbers, and red onion.", "stepImage": "https://www.example.com/chop_vegetables.jpg" },
+        { "stepText": "Combine vegetables, olives, and feta cheese in a bowl.", "stepImage": "https://www.example.com/combine_ingredients.jpg" },
+        { "stepText": "Mix olive oil and lemon juice for dressing.", "stepImage": "https://www.example.com/make_dressing.jpg" },
+        { "stepText": "Toss salad with dressing and serve.", "stepImage": "https://www.example.com/toss_salad.jpg" }
+      ],
+      "cookingTime": 15,
+      "category": "64b67d5f2f44b7bb2a51d1d5",
+      "chef": "64b67d5f2f44b7bb2a51d1e7",
+      "chefName": ["Chef Elena"],
+      "photos": ["https://example.com/greek_salad.jpg"],
+      "dietaryRestrictions": ["Vegetarian"],
+      "cuisineType": "Greek",
+      "nutrition": {
+        "calories": "250 kcal",
+        "protein": "10 g",
+        "TotalFats": "20 g",
+        "carbs": "15 g"
+      },
+      "videoTutorialUrl": "https://www.allrecipes.com/recipe/14276/strawberry-spinach-salad-i/",
+      "isDeleted": false,
+      "servings": 4
+    }
+  ]
+  

@@ -1,0 +1,23 @@
+{
+    "title": "Classic Lasagna",
+    "description": "A delicious classic Italian lasagna with layers of rich meat sauce and creamy cheese.",
+    "ingredients": [
+      { "name": "Lasagna Noodles", "quantity": "12", "unit": "pieces" },
+      { "name": "Ground Beef", "quantity": "500", "unit": "g" },
+      { "name": "Mozzarella Cheese", "quantity": "200", "unit": "g" },
+      { "name": "Tomato Sauce", "quantity": "2", "unit": "cups" }
+    ],
+    "instructions": [
+      { "stepText": "Boil lasagna noodles until al dente.", "stepImage": "" },
+      { "stepText": "Cook ground beef until browned.", "stepImage": "" },
+      { "stepText": "Layer noodles, beef, and cheese in a baking dish.", "stepImage": "" }
+    ],
+    "nutrition": {
+      "calories": "500 kcal",
+      "protein": "30g",
+      "totalFats": "25g",
+      "carbs": "40g"
+    },
+    "chefName": []
+  }
+  

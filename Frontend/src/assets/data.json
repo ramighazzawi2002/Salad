@@ -1,0 +1,128 @@
+[
+    {
+      "title": "Classic Lasagna",
+      "description": "A delicious classic Italian lasagna with layers of rich meat sauce and creamy cheese.",
+      "ingredients": [
+        { "name": "Lasagna Noodles", "quantity": "12", "unit": "pieces" },
+        { "name": "Ground Beef", "quantity": "500", "unit": "g" },
+        { "name": "Mozzarella Cheese", "quantity": "200", "unit": "g" },
+        { "name": "Tomato Sauce", "quantity": "2", "unit": "cups" }
+      ],
+      "instructions": [
+        "Boil lasagna noodles until al dente.",
+        "Cook ground beef in a skillet until browned.",
+        "Layer noodles, beef, cheese, and sauce in a baking dish.",
+        "Bake at 375°F for 45 minutes."
+      ],
+      "cookingTime": 60,
+      "category": "64d5b3c77f5a2b001f5c7890", 
+      "chef": "64d5b3c77f5a2b001f5c1234", 
+      "photos": [
+        "https://www.allrecipes.com/thmb/jqhbfW1NpKFJvDa8uWvCK-RcfAA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/14469-jamies-cranberry-spinach-salad-DDMFS-4x3-0bba054b8846478c9fa4831afb91410f.jpg"
+      ],
+      "dietaryRestrictions": ["Gluten", "Dairy"],
+      "cuisineType": "Italian",
+      "nutrition": {
+        "calories": "500 kcal",
+        "protein": "30g",
+        "totalFats": "25g",
+        "carbs": "40g"
+      },
+      "servings": 6,
+      "isDeleted": false
+    },
+    {
+      "title": "Chicken Caesar Salad",
+      "description": "A fresh Caesar salad with grilled chicken, croutons, and a creamy Caesar dressing.",
+      "ingredients": [
+        { "name": "Chicken Breast", "quantity": "2", "unit": "pieces" },
+        { "name": "Romaine Lettuce", "quantity": "1", "unit": "head" },
+        { "name": "Parmesan Cheese", "quantity": "50", "unit": "g" },
+        { "name": "Caesar Dressing", "quantity": "100", "unit": "ml" }
+      ],
+      "instructions": [
+        "Grill chicken breasts until cooked through.",
+        "Chop romaine lettuce and mix with Caesar dressing.",
+        "Top with grilled chicken, Parmesan, and croutons."
+      ],
+      "cookingTime": 30,
+      "category": "64d5b3c77f5a2b001f5c7891",
+      "chef": "64d5b3c77f5a2b001f5c1235", 
+      "photos": [
+        "https://www.allrecipes.com/thmb/OGMwOX2l1Vufxr7GF8Ql0giSMjg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-14276-Strawberry-Spinach-Salad-Step-4-0ea001448b1c4ab5bad1a15b77fd6f9f.jpg"
+      ],
+      "dietaryRestrictions": ["Dairy"],
+      "cuisineType": "American",
+      "nutrition": {
+        "calories": "350 kcal",
+        "protein": "25g",
+        "totalFats": "20g",
+        "carbs": "15g"
+      },
+      "servings": 2,
+      "isDeleted": false
+    },
+    {
+      "title": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish with creamy eggs, pancetta, and Parmesan.",
+      "ingredients": [
+        { "name": "Spaghetti", "quantity": "400", "unit": "g" },
+        { "name": "Pancetta", "quantity": "150", "unit": "g" },
+        { "name": "Eggs", "quantity": "4", "unit": "pieces" },
+        { "name": "Parmesan Cheese", "quantity": "100", "unit": "g" }
+      ],
+      "instructions": [
+        "Boil spaghetti until al dente.",
+        "Cook pancetta until crispy.",
+        "Mix eggs and Parmesan, then toss with hot spaghetti and pancetta."
+      ],
+      "cookingTime": 20,
+      "category": "64d5b3c77f5a2b001f5c7892",
+      "chef": "64d5b3c77f5a2b001f5c1236", 
+      "photos": [
+        "https://www.example.com/images/carbonara.jpg"
+      ],
+      "dietaryRestrictions": ["Gluten", "Dairy"],
+      "cuisineType": "Italian",
+      "nutrition": {
+        "calories": "600 kcal",
+        "protein": "25g",
+        "totalFats": "30g",
+        "carbs": "60g"
+      },
+      "servings": 4,
+      "isDeleted": false
+    },
+    {
+      "title": "Vegetable Stir-Fry",
+      "description": "A quick and easy vegetable stir-fry with soy sauce and ginger.",
+      "ingredients": [
+        { "name": "Broccoli", "quantity": "200", "unit": "g" },
+        { "name": "Carrots", "quantity": "2", "unit": "pieces" },
+        { "name": "Bell Peppers", "quantity": "1", "unit": "piece" },
+        { "name": "Soy Sauce", "quantity": "3", "unit": "tbsp" }
+      ],
+      "instructions": [
+        "Chop vegetables into bite-sized pieces.",
+        "Stir-fry vegetables in a hot pan with oil until tender.",
+        "Add soy sauce and ginger for flavor."
+      ],
+      "cookingTime": 15,
+      "category": "64d5b3c77f5a2b001f5c7893",
+      "chef": "64d5b3c77f5a2b001f5c1237", 
+      "photos": [
+        "https://www.example.com/images/stir_fry.jpg"
+      ],
+      "dietaryRestrictions": ["Vegan", "Gluten-Free"],
+      "cuisineType": "Asian",
+      "nutrition": {
+        "calories": "200 kcal",
+        "protein": "5g",
+        "totalFats": "10g",
+        "carbs": "25g"
+      },
+      "servings": 3,
+      "isDeleted": false
+    }
+  ]
+  
